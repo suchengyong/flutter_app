@@ -8,6 +8,7 @@ class FindPage extends StatelessWidget {
     return Scaffold(
       appBar: new AppBar(
         title: Text('发现'),
+        backgroundColor:Colors.grey,
       ),
       body:Text('发现'),
     );

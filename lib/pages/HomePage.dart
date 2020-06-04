@@ -8,6 +8,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: new AppBar(
         title: Text('首页'),
+        backgroundColor:Colors.grey,
       ),
       body:Text('首页'),
     );

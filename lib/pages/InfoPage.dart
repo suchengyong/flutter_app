@@ -8,6 +8,7 @@ class InfoPage extends StatelessWidget {
     return Scaffold(
       appBar: new AppBar(
         title: Text('消息'),
+        backgroundColor:Colors.grey,
       ),
       body:Text('消息'),
     );

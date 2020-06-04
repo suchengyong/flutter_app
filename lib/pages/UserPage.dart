@@ -8,6 +8,7 @@ class UserPage extends StatelessWidget {
     return Scaffold(
       appBar: new AppBar(
         title: Text('我的'),
+        backgroundColor:Colors.grey,
       ),
       body:Text('我的'),
     );
